@@ -1,5 +1,37 @@
 @charset "UTF-8";
+@use "tailwindcss/base"; 
+@use "tailwindcss/components"; 
+@use "tailwindcss/utilities";
 
 * {
   font-family: sans-serif;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+.div-up:hover{
+  top:-3px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.p-header:hover{
+  background-color: aquamarine;
+}
+
+.go-white{
+  background-color: aliceblue !important;
+  margin: 13px;
+  margin-bottom: 6.5px !important;
+}
+
+a:hover{
+  color: #22d3ee;
+}
+
+.img-toto{
+  height: 40px;
+  margin: auto;
+  padding: 6px;
 }
