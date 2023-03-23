@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Twitter from "../image/twitter.webp";
 import Github from "../image/github.webp";
 import Discord from "../image/discord.webp";
+import Logo from "../image/logo.webp";
 import { MobileView, BrowserView } from "react-device-detect";
 
 export default function App() {
@@ -11,7 +12,8 @@ export default function App() {
       <div className="glass">
       <main className="relative">
         <div className="flex bg-green-200">
-          <div className="w-4/6 ">
+          <div className="w-4/6 flex">
+            <img src={Logo} alt="Logo" className="logo-fix"></img>
             <p className="w-1/6 p-3 m-1 flex logo not-large"><a href="https://aranpect.com">Aranpect</a></p>
           </div>
           <div className="btn-top w-2/6">
@@ -43,10 +45,11 @@ export default function App() {
               
             </div>
             <div className="w-3/5 justify-center p-3 border-black go-white rounded-md div-up">
-              <p className="main-p border-2 rounded-md bg-green-100 ">自己紹介</p>
+              <p className="main-p border-2 rounded-md bg-green-100 text-3xl p-2">自己紹介</p>
               <div>
                 <p className="text-center">ガジェットが好きな学生</p>
                 <p className="text-center">たまにプログラミングをしています</p>
+                <p className="text-center">よろしくおねがいします！</p>
               </div>
             </div>
             <div className="w-1/5">
@@ -58,7 +61,7 @@ export default function App() {
               <p className="text-center">広告枠</p>
             </div>
             <div className="w-3/5 justify-center p-3 border-black go-white rounded-md div-up">
-              <p className="main-p border-2 rounded-md bg-green-100">相互リンク</p>
+              <p className="main-p border-2 rounded-md bg-green-100 text-3xl p-2">相互リンク</p>
               <div>
                 <a href="https://takoserver.com"><p className="text-center a-large">takoserver</p></a>
                 <a href="https://suzuneu.com"><p className="text-center a-large">すずねーう</p></a>
