@@ -2,13 +2,12 @@
 @use "tailwindcss/base"; 
 @use "tailwindcss/components"; 
 @use "tailwindcss/utilities";
-
-* {
-  font-family: sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
 
 body{
-  background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),
+  background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8));
+  font-family: 'Noto Serif JP';
+  height: 100vh;
 }
 
 .logo-fix{
@@ -63,3 +62,40 @@ h1{
   font-weight: bold;
 }
 
+@media screen and (max-width:865px) {
+  .mobile-p{
+    padding: 0px !important;
+    margin: 2px !important;
+  }
+  .mobile-top{
+    width: 40% !important;
+  }
+  .mobile-top-right{
+    width: 60% !important;
+  }
+}
+
+@media screen and (max-width:495px) {
+  .under-p{
+    font-size: 12px;
+  }
+  .mobile-div{
+    font-size: 0.8rem;
+    line-height: 1.7rem;
+    padding: 0px !important;
+    margin: 2px !important;
+  }
+  .mobile-p{
+    font-size: 14px;
+  }
+  .mobile-top{
+    width: 30% !important;
+  }
+  .mobile-top-right{
+    width: 70% !important;
+  }
+  .mobile-top-p{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
