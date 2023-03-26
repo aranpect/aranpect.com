@@ -24,7 +24,7 @@ export default function App() {
         </div>
         <section>
           <div className="flex">
-            <div className="w-1/5 border-2 rounded-md p-3 m-1 bg-violet-600 div-up mobile-div">
+            <div className="w-1/5 border-2 rounded-md p-3 m-1 bg-blue-600 div-up mobile-div">
               <p className="text-center text-3xl text-white mobile-p">LINK</p>
               <a href="https://twitter.com/aranpect"><img src={Twitter} alt="twitter" className="img-toto"></img></a>
               <p className="text-center text-white">Twitter</p>
@@ -33,7 +33,7 @@ export default function App() {
               <a href="https://github.com/aranpect"><img src={Github} alt="github" className="img-toto"></img></a>
               <p className="text-center text-white">Github</p>
             </div>
-            <div className="w-3/5 border-2 rounded-md p-3 m-1 bg-blue-600 div-up mobile-div">
+            <div className="w-3/5 border-2 rounded-md p-3 m-1 bg-violet-600 div-up mobile-div">
               <h1 className="text-center text-white p-3">Aranpect</h1>
             </div>
             <div className="w-1/5 border-2 rounded-md p-3 m-1 bg-red-600 div-up mobile-div">
