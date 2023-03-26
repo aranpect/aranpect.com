@@ -16,7 +16,7 @@ export default function App() {
             <a href="https://aranpect.com"><img src={Logo} alt="Logo" className="logo-fix"></img></a>
             <p className="w-1/6 p-3 m-1 flex logo not-large"><a href="https://aranpect.com">Aranpect</a></p>
           </div>
-          <div className="btn-top w-2/6 mobile-top-right">
+          <div className="btn-top w-2/6 mobile-top-right right-div">
             <p className="p-3 m-1 p-header justify-around btn-top mobile-top-p">お問い合わせ</p>
             <p className="p-3 m-1 p-header justify-around btn-top mobile-top-p"><a href="https://github.com/aranpect">開発物</a></p>
             <p className="p-3 m-1 p-header justify-around btn-top mobile-top-p">ホーム</p>

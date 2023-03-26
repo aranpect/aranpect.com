@@ -17,6 +17,11 @@ body{
   margin-right: 0px !important;
 }
 
+.right-div{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .div-up{
   top:-3px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
@@ -47,10 +52,6 @@ body{
 .logo{
   padding-left: 10px;
   padding-top: 15px;
-}
-
-.btn-top{
-  float: right;
 }
 
 h1{
