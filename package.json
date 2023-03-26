@@ -4,7 +4,7 @@
   "description": "My React App",
   "main": "src/js/client.tsx",
   "scripts": {
-    "build": "node build-prod.js",
+    "build": "node build.js",
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
     "predev": "npm run clean",
