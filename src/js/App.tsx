@@ -66,7 +66,7 @@ export default function App() {
                 <a href="https://takoserver.com"><p className="text-center a-large">takoserver</p></a>
                 <a href="https://suzuneu.com"><p className="text-center a-large">すずねーう</p></a>
                 <a href="https://natsukimc.com"><p className="text-center a-large">なつきmc</p></a>
-                <a href="https://404kit.com"><p className="text-center a-large">404kit</p></a>
+                <a href="http://404kit.com"><p className="text-center a-large">404kit</p></a>
               </div>
             </div>
             <div className="w-1/5">
