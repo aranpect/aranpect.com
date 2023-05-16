@@ -38,6 +38,7 @@ export default function App() {
             </div>
             <div className="w-1/5 border-2 rounded-md p-3 m-1 bg-red-600 div-up mobile-div">
               <p className="text-center text-3xl text-white mobile-p">Service</p>
+              <p className="text-center text-xl text-white"><a href="https://line-secret-message.pages.dev/">LINE-SECRET-MESSAGE</a></p>
             </div>
           </div>
           <div className="flex">
